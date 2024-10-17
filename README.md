@@ -5,4 +5,4 @@
 > [!CAUTION]
 > Не отпарвляйте сссылку на рекпозитории школы ученикам!
 
-## [Вводный модуль - python 1 год]()
+## [Вводный модуль - python 1 год](https://github.com/IT-Compot/Introduction-modules/blob/main/python/README.md)
