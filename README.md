@@ -5,4 +5,5 @@
 > [!CAUTION]
 > Не отпарвляйте сссылку на рекпозитории школы ученикам!
 
-## [Вводный модуль - python 1 год](https://github.com/IT-Compot/Introduction-modules/blob/main/python/README.md)
+## Сипсок вводных модулей по курсам
+##№ 1. [Вводный модуль - python 1 год](https://github.com/IT-Compot/Introduction-modules/blob/main/python/README.md)
