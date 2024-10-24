@@ -157,7 +157,7 @@ func _physics_process(delta):
 Когда `if` будет найден, идём в код противника и прописываем условную конструкцию в функции `_physics_process(delta)`, до метода `move_and_slide()`:
 
 ```GDScript
-if position.x <= -50 # пусть дети вписывают те числа, которые запомнили в момент продумывания логики.
+if position.x <= -50: # пусть дети вписывают те числа, которые запомнили в момент продумывания логики.
   position.x = 1060
 ```
 
@@ -169,7 +169,7 @@ if position.x <= -50 # пусть дети вписывают те числа, �
 Модифицируем условную конструкцию:
 
 ```GDScript
-if position.x <= -50
+if position.x <= -50:
   position.x = 1060
   randomize()
   position.y = rand_range(0, 600) # дайте ученикам-(цам) самостоятельно задать диапазон.
@@ -187,7 +187,7 @@ var velocity = Vector2()
 func _physics_process(delta):
   velocity.x = -500
 
-  if position.x <= -50
+  if position.x <= -50:
     position.x = 1060
     randomize()
     position.y = rand_range(0, 600)
@@ -258,7 +258,7 @@ func _process(delta):
   var interval = ($player.position - $enemy.position).length()
   print(interval)
 
-  if interval.length() < 75:
+  if interval < 75:
     get_tree().paused = true
 ```
 
